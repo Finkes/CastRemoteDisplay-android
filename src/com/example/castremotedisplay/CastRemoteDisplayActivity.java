@@ -25,7 +25,7 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.MediaRouteActionProvider;
 import android.support.v7.media.MediaRouteSelector;
 import android.support.v7.media.MediaRouter;
@@ -55,7 +55,7 @@ import android.widget.Toast;
  * to the Android log which you can read using <code>adb logcat</code>.
  * </p>
  */
-public class CastRemoteDisplayActivity extends ActionBarActivity {
+public class CastRemoteDisplayActivity extends AppCompatActivity {
 
     private final String TAG = "CastRDisplayActivity";
 
